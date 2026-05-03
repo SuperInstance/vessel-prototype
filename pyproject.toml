@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vessel-prototype"
+version = "1.0.0"
+description = "Cocapn Fleet module — vessel-prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["cocapn", "fleet"]
+
+[project.scripts]
+vessel_prototype = "agent:main"
+
